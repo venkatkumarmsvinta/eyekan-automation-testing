@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "test": "playwright test",
+    "test:local": "TEST_ENV=local playwright test",
+    "test:dev": "TEST_ENV=dev playwright test",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "report": "playwright show-report"
